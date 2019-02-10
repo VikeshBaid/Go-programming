@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(x)
 	fmt.Println(y)
 	ax := sum(2,3,4,5,7,8,8,9)
-	fmt.Println("the sum is ,", ax)
+	fmt.Println("the sum is ,", &ax)
 }
 
 // func (r reciever) identifier(parameter(s)) (return(s)) { ... }
